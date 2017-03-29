@@ -1,0 +1,111 @@
+.bg-top-part {
+	background: #063965;
+}
+
+.top-part {
+	display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top-part .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-part .menu ul {
+	display: flex;
+    margin: 0;
+}
+
+.top-part .menu ul li {
+	list-style: none;
+	padding: 0  0 0 20px;
+}
+
+.top-part .menu ul li a {
+	color: #fff;
+	padding: 0 0 1px 0;
+}
+
+.top-part .menu ul li a:hover {
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+}
+
+.top-part .logo {
+	padding: 5px 0 5px 30px;
+}
+
+.top-part .logo img {
+	height: 40px;
+}
+
+.tabs {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.card {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.card-img-top {
+	width: 100%;
+	height: 300px;
+}
+
+.card a {
+	background: #063965;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    right: 20px;
+    position: absolute;
+    top: 280px;
+
+}
+
+.card a:hover {
+	text-decoration: none;
+	transform: scale(1.1,1.1);
+}
+
+.tabs .nav-tabs {
+	border: 0;
+	color: #063965;
+}
+
+.tabs .nav-tabs a:hover {
+	border-bottom: 1px solid transparent;
+    border-color: transparent transparent #063965;
+	color: #063965;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	border-bottom: 1px solid transparent;
+    border-color: transparent transparent #063965;
+	color: #063965;
+}
+
+@media screen and (max-width: 767px) {
+
+	.top-part .logo {
+		padding: 5px 0 ;
+	}
+
+	.top-part .menu ul {
+	    display: none;
+	}
+
+	.top-part .pos-f-t ul {
+		display: block;
+	}
+
+}
