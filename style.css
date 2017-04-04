@@ -94,6 +94,75 @@
 	color: #063965;
 }
 
+.single {
+	background: #7f7f7f;
+	padding: 50px 0;
+}
+
+.text-part {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.container.single-content {
+	background: #e2f2f2;
+	padding: 50px 0;
+	max-height: 560px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.logo-single {
+	width: 300px;
+	margin: 50px auto;
+}
+
+.logo-single img {
+	width: 100%;
+}
+
+.colors {
+    justify-content: space-around;
+    display: flex;
+}
+
+.colors div {
+    text-align: right;
+    padding: 80px 10px 10px;
+}
+
+.container.single-content::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: none;
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+.container.single-content::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: transparent;
+}
+
+.container.single-content::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: none;
+	background-color: #91ccea;
+}
+
+.images {
+	max-width: 500px;
+	margin: 300px auto;
+}
+
+.images img {
+	width: 100%;
+}
+
 @media screen and (max-width: 767px) {
 
 	.top-part .logo {
